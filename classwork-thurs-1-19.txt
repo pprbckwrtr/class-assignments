@@ -1,0 +1,50 @@
+  537  sudo reboot
+  538  cd Deskto
+  539  cd Desktop
+  540  cd eeb-177
+  541  cd labwork
+  542  cd lab-work
+  543  mkdir exercise-2
+  544  git init
+  545  gedit README.txt
+  546  touch README.txt
+  547  gedit README.txt
+  548  cd exercise-2
+  549  gedit README.txt
+  550  git add exercise-2
+  551  git add exercise-2/
+  552  cd ..
+  553  git add exercise-2/
+  554  git commit -m "exercise-2 folder"
+  555  git push
+  556  gedit classwork-thursday-1-19.txt
+  557  git add classwork-thursday-1-19.txt
+  558  git rm classwork-thursday-1-19.txt
+  559  -f
+  560  mv classwork-thursday-1-19.txt class-assignments
+  561  cd Desktop
+  562  cd eeb-177
+  563  cd class-assignments
+  564  gedit classwork-thurs-1-19.txt
+  565  git add classwork-thurs-1-19.txt
+  566  git commit -m " classwork 1-19 text file added"
+  567  git push
+  568  cd ..
+  569  cd CSB/unix
+  570  cd data
+  571  wc -l Marra2014_data.fast
+  572  wc -l Marra2014_data.fasta
+  573  touch toremove.txt ../sandbox
+  574  ls ../sandbox 
+  575  ls ../sandbox/
+  576  cd ..
+  577  cd unix
+  578  cd data
+  579  touch removeme.txt ~/Desktop/CSB/unix/sandbox
+  580  touch ~/Desktop/CSB/unix/sandbox/removeme.txt
+  581  touch ../sandbox/junkfile.txt
+  582  ls ../sandbox/
+  583  man history
+  584  history 10
+  585  history 50
+  586  history 50 >> ~/Desktop/eeb-177/class-assignments/classwork-thurs-1-19.txt
