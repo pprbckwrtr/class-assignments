@@ -1,2 +1,77 @@
 eeb-177/class-assignments/classwork-tues-1-17.txt
 eeb-177/class-assignments/classwork-thurs-1-19.txt
+  803  grep -c isogroup00036
+  804  cd Desktop
+  805  cd eeb-177
+  806  cd class-assignments
+  807  gedit classwork-01-24.txt
+  808  cd ..
+  809  cd CSB
+  810  cd unix
+  811  cd sandbox
+  812  wget http://tinyurl.com/cep-taxa -0 cep-taxa.txt
+  813  wget http://tinyurl.com/cep-taxa -O cep-taxa.txt
+  814  gedit cep-taxa.txt
+  815  grep Orchidacae cep-tax.txt
+  816  grep Orchidacea cep-tax.txt
+  817  grep Orchidacea cep-taxa.txt
+  818  grep -c Orchidacea cep-taxa.txt
+  819  grep -i falcon cep-taxa.txt
+  820  grep -i macaw cep-taxa.txt
+  821  grep -i ara cep-taxa.txt 
+  822  grep -i "ara" cep-taxa.txt 
+  823  grep -i -w ara cep-taxa.txt 
+  824  grep -B 3 -i Cebus cep-taxa.txt 
+  825  grep -n -i iguana cep-taxa.txt 
+  826  grep -v -c -i -w ara cep-taxa.txt 
+  827  find d .*
+  828  find d .
+  829  ls -l
+  830  ls ../
+  831  find .*/data
+  832  find ../data/ |wc -l
+  833  find -name "n30.txt" ../data/
+  834  find ../data/ -name n30.txt
+  835  cd..
+  836  cd ..
+  837  find ~ -name n30.txt
+  838  cd Desktop
+  839  cd CSB
+  840  cd unix
+  841  cd data
+  842  cd ..
+  843  cd sandbox
+  844  cd ../data/
+  845  cd ..
+  846  cd sandbox
+  847  find ../data/ -iname "*about*"
+  848  cd..
+  849  cd ..
+  850  cd eeb-177
+  851  cd ..
+  852  find /eeb-177/ -iname "*classwork*"
+  853  find eeb-177 -iname "*classwork*"
+  854  find eeb-177 -iname "*classwork*" >>classwork-01-24.txt
+  855  cd eeb-177
+  856  cd class-assignments
+  857  git add classwork-01-24.txt
+  858  git commit -m "appended paths to classwork files to 1-24 classwork"
+  859  git push
+  860  cd ..
+  861  cd CSB
+  862  cd unix
+  863  cd sandbox
+  864  find ../data -maxdepth 1 -name "*.txt*" | wc -l
+  865  ls -l
+  866  gedit permission.txt
+  867  ls -l
+  868  permissions.txt
+  869  touch permissions.txt
+  870  ls -l
+  871  chmod u=rwx permissions.txt ls -l
+  872  chmod u=rwx permissions.txt
+  873  ls -l
+  874  history -n 50
+  875  history | tail -n 50 
+  876  history | tail -n 70
+  877  history | tail -n 75 >> /home/eeb177-student/Desktop/eeb-177/class-assignments/classwork-01-24.txt
