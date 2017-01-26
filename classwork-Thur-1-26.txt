@@ -1,0 +1,100 @@
+  958  git add exercise-3
+  959  git commit -m "new exercise-3 folder"
+  960  git push
+  961  git add exercise-3
+  962  git commit -m "answers to classwork in jupyter"
+  963  git push
+  964  cd Desktop
+  965  cd eeb-177
+  966  cd lab-work
+  967  mkdir exercise-3
+  968  jupyter notebook
+  969  $PATH
+  970  cd Desktop
+  971  cd eeb-177
+  972  cd homework
+  973  cd ..
+  974  cd class-assignments
+  975  gedit classwork-Thur-1-26.txt
+  976  ls -l
+  977  touch permissions.txt
+  978  ls -l
+  979  chmod u=rwx permission.txt
+  980  chmod u=rwx permissions.txt
+  981  ls -l
+  982  chmod u-x permissions.txt
+  983  ls -l
+  984  gedit classwork-Thur-1-25.txt
+  985  gedit classwork-Thur-1-26.txt
+  986  gedit
+  987  ls/usr/bin
+  988  $PATH
+  989  cd
+  990  pwd
+  991  mkdir scripts
+  992  ls
+  993  cd scripts/
+  994  ls
+  995  mv ~Desktop/eeb-177/class-assignments/
+  996  mv ~Desktop/eeb-177/class-assignments/dir.sh .
+  997  mv /home/eeb177-student/Desktop/eeb-177/class-assignments/dir.sh .
+  998  ls
+  999  cd
+ 1000  gedit .bash_profile
+ 1001  ls -a
+ 1002  cd Deksto
+ 1003  cd Desktop
+ 1004  cd CSB
+ 1005  cd unix
+ 1006  cd sandbox
+ 1007  sort -n -c -d " " -f 4 my_file.fasta | uniq
+ 1008  cut -d " " -f 4 my_file.fasta | sort -n | uniq | wc -l
+ 1009  cut -d " " -f 4 my_file.fasta | sort -n
+ 1010  sort -n | -d " " -f 3 my_file.fasta 
+ 1011  echo -d " " -f 3 my_file.fasta | sort -n
+ 1012  cut -d " " -f 3 my_file.fasta | sort -n
+ 1013  cut -d " " -f 3 my_file.fasta | sort -n -r | head -n 15
+ 1014  cat -d " " -f 3 my_file.fasta | sort -n -r
+ 1015  cut -d " " -f 3 my_file.fasta | sort -n -r
+ 1016  cut -d " " -f 3 my_file.fasta | sort -n -r
+ 1017  cut -d " " -f 3 my_file.fasta | sort | uniq -c
+ 1018  echo -d " " -f 3 my_file.fasta | sort -n -r
+ 1019  echo -d " " -f 3 /home/eeb177-student/Desktop/CSB/unix/sandbox/my_file.fasta | sort -n -r
+ 1020  cat -d " " -f 3 my_file.fasta | sort -n -r
+ 1021  cut -d "  " -f 3 my_file.fasta | sort -n -r
+ 1022  cut -d -f 3 my_file.fasta | sort -n -r
+ 1023  cut -f 3 my_file.fasta | sort -n -r
+ 1024  cut -f 3 my_file.fasta | sort -n -r | head -n 1
+ 1025  cut -f 3 my_file.fasta | sort -n -r | tail -n +1
+ 1026  cat /home/eeb177-student/Desktop/CSB/unix/sandbox/my_file.fasta | tr -s ' ' ','
+ 1027  cat /home/eeb177-student/Desktop/CSB/unix/sandbox/my_file.fasta | tr -s ' ' ',' | sort -n -r -d "," -f 3
+ 1028  ls -l
+ 1029  cd scripts/
+ 1030  ls -l
+ 1031  chmod u=rwx dir.sh
+ 1032  ls -l
+ 1033  cd Desktop
+ 1034  cd Desktop/
+ 1035  cd ..
+ 1036  cd Desktop
+ 1037  ls -a
+ 1038  cd ..
+ 1039  ls -a
+ 1040  gedit .profile
+ 1041  sudo reboot
+ 1042  $PATH
+ 1043  dir.sh
+ 1044  cd
+ 1045  cd scripts/
+ 1046  gedit dir.sh
+ 1047  dir.sh
+ 1048  cd ..
+ 1049  cd Desktop
+ 1050  cd ..
+ 1051  cd Desktop
+ 1052  pwd
+ 1053  cd ..
+ 1054  cd Desktop
+ 1055  historty tail -n +100 >> /home/eeb177-student/Desktop/eeb-177/class-assignments/classwork-Thur-1-26.txt
+ 1056  history tail -n +100 >> /home/eeb177-student/Desktop/eeb-177/class-assignments/classwork-Thur-1-26.txt
+ 1057  history | tail -n 100 >> /home/eeb177-student/Desktop/eeb-177/class-assignments/classwork-Thur-1-26.txt
